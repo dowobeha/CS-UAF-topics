@@ -3,14 +3,13 @@
 
 Some things I cover either very little or not at all, so students should see them somewhere besides CS 311, or they're never going to see them:
 
-- [[Object-oriented programming]] & OO design, including 
+- [OOP](OOP.md) & OO design, including 
 	- [[inheritance]]
-	- [[virtual functions]]
-	- [[separation of concerns]] and OO-style [[dependency injection]]
+	- [virtual functions](virtual%20functions.md)
+	- [separation of concerns](separation%20of%20concerns.md) and OO-style []
 - I/O
-	- [[Formatted I/O]]
-	- [[File I/O]]
-
+	- [Formatted I/O](Formatted%20IO.md)
+	- [File I/O](File%20IO.md)]
 
 # High priority
 
@@ -21,11 +20,11 @@ Some things I cover either very little or not at all, so students should see the
 	- [[loops]]
 	- [[conditionals]]
 	- [[functions]]
-		- [[pass by value]]
-		- [[pass by reference]]
-		- [[returning values]]
+		- [pass by value](pass%20by%20value.md)
+		- [pass by reference](pass%20by%20reference.md)
+		- [returning values](returning%20values.md)
 - separation of code
-	- [[header files]] vs [[source file]]
+	- [header files](header%20files.md) vs [source file](source%20file.md)
 	- [[modules]] 
 
 ## Standard data structures
@@ -39,22 +38,22 @@ They should have seen basic Standard Library data structures
 
 Students should know how to write and use a class:
 - class definition
-- [[access specifiers]]
+- [access specifiers](access%20specifiers.md)
 	- public
 	- protected
 	- private
 - multiple [[constructors]]
 - [[destructors]]
-- [[member data]]
-- [[const]] & non-const [[member functions]]
-- [[static member data]]
+- [member data](member%20data.md)
+- [[const]] & non-const [member functions](member%20functions.md)
+- [static member data](static%20member%20data.md)
 
 # Medium priority
 
 ## Multi-file project
 
 Students need to have 
-- [[write code|written code]], [[compile code|built]], and [[run code|executed]] significant software packages involving
+- [written code](write%20code), [built](compile%20code), and [execute](run%20code.md) significant software packages involving
 	- classes
 	- objects
 	- multiple functions
@@ -64,7 +63,7 @@ Students need to have
 
 Students should know something about designing software themselves:
 - [[modularity]]
-- [[separation of concerns]]
+- [separation of concerns](separation%20of%20concerns.md)
 - [[cohesiveness]]
 
 Students should be able to interface:
@@ -91,7 +90,7 @@ Here are a few things that I cover in detail, without assuming much prior experi
 
 - [[pointers]]
 - built-in [[arrays]]
-- [[dynamic memory allocation]]
+- [dynamic memory allocation](dynamic%20memory%20allocation.md)
 - [[generics|templates]]
 
 # Lowest priority
