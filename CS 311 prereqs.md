@@ -4,7 +4,7 @@
 Some things I cover either very little or not at all, so students should see them somewhere besides CS 311, or they're never going to see them:
 
 - [OOP](OOP.md) & OO design, including 
-	- [[inheritance]]
+	- [inheritance](inheritance.md)
 	- [virtual functions](virtual%20functions.md)
 	- [separation of concerns](separation%20of%20concerns.md) and OO-style []
 - I/O
@@ -15,24 +15,24 @@ Some things I cover either very little or not at all, so students should see the
 
 ## Nuts and bolts
 
-- [[types]] and [[variables]]
+- [types](types.md) and [variables](variables.md)
 - control flow
-	- [[loops]]
-	- [[conditionals]]
-	- [[functions]]
+	- [loops](loops.md)
+	- [conditionals](conditionals.md)
+	- [functions](functions.md)
 		- [pass by value](pass%20by%20value.md)
 		- [pass by reference](pass%20by%20reference.md)
 		- [returning values](returning%20values.md)
 - separation of code
 	- [header files](header%20files.md) vs [source file](source%20file.md)
-	- [[modules]] 
+	- [modules](modules.md)
 
 ## Standard data structures
 
 They should have seen basic Standard Library data structures 
-- std::[[vector]]
-- std::[[tuple]]
-- std::[[map]] 
+- [vector](vector.md)
+- [tuple](tuple.md)
+- [map](map.md)
 
 ## Object-oriented programming
 
@@ -42,10 +42,10 @@ Students should know how to write and use a class:
 	- public
 	- protected
 	- private
-- multiple [[constructors]]
-- [[destructors]]
+- multiple [constructors](constructors.md)
+- [destructors](destructors.md)
 - [member data](member%20data.md)
-- [[const]] & non-const [member functions](member%20functions.md)
+- [const](const) & non-const [member functions](member%20functions.md)
 - [static member data](static%20member%20data.md)
 
 # Medium priority
@@ -62,9 +62,9 @@ Students need to have
 ## Software design principles
 
 Students should know something about designing software themselves:
-- [[modularity]]
+- [modularity](modularity.md)
 - [separation of concerns](separation%20of%20concerns.md)
-- [[cohesiveness]]
+- [cohesiveness](cohesiveness.md)
 
 Students should be able to interface:
 - interface with software written by someone else &/or
@@ -73,8 +73,8 @@ Students should be able to interface:
 ## Testing and debugging
 
 Students should have performed 
-- basic [[testing]]
-- basic [[debugging]]
+- basic [testing](testing.md)
+- basic [debugging](debugging.md)
 
 ## Accessing data
 
@@ -88,16 +88,16 @@ Students know the basics of
 
 Here are a few things that I cover in detail, without assuming much prior experience. I'm generally happier if students have seen them before, but that is not absolutely required:
 
-- [[pointers]]
-- built-in [[arrays]]
+- [pointers](pointers.md)
+- built-in [arrays](arrays.md)
 - [dynamic memory allocation](dynamic%20memory%20allocation.md)
-- [[generics|templates]]
+- [templates](generics.md)
 
 # Lowest priority
 
 Some things that I cover in detail, and I think it's fine if students have never seen them before.
 
-- [[exceptions]] & exception safety
-- [[RAII]] & resource management
+- [exceptions](exceptions.md) & exception safety
+- [RAII](RAII.md) & resource management
 
 
