@@ -1,21 +1,24 @@
 
-# Highest priority
-
-Some things I cover either very little or not at all, so students should see them somewhere besides CS 311, or they're never going to see them:
-
-- [OOP](design/OOP.md) & OO design, including 
-	- [inheritance](oop/inheritance.md)
-	- [virtual functions](oop/virtual%20functions.md)
-	- [separation of concerns](design/separation%20of%20concerns.md) and OO-style []
-- I/O
-	- [Formatted I/O](io/Formatted%20IO.md)
-	- [File I/O](io/File%20IO.md)]
+What students need to know prior to taking CS 311
 
 # High priority
 
+
+## Core [types](core/types.md)
+
+- Primitive types
+	- integer
+	- floating point
+	- bool
+	- char
+- Complex types
+	- string
+	- [vector](types/vector.md)
+	- [tuple](types/tuple.md)
+	- [map](types/map.md)
 ## Nuts and bolts
 
-- [types](core/types.md) and [variables](core/variables.md)
+- [variables](core/variables.md)
 - control flow
 	- [loops](core/loops.md)
 	- [conditionals](core/conditionals.md)
@@ -26,13 +29,6 @@ Some things I cover either very little or not at all, so students should see the
 - separation of code
 	- [header files](design/header%20files.md) vs [source file](design/source%20file.md)
 	- [modules](design/modules.md)
-
-## Standard data structures
-
-They should have seen basic Standard Library data structures 
-- [vector](types/vector.md)
-- [tuple](types/tuple.md)
-- [map](types/map.md)
 
 ## Object-oriented programming
 
@@ -47,6 +43,18 @@ Students should know how to write and use a class:
 - [member data](oop/member%20data.md)
 - [const](oop/const%20member%20functions.md) & non-const [member functions](oop/member%20functions.md)
 - [static member data](oop/static%20member%20data.md)
+
+## Won't get anywhere else
+
+Some things not covered in CS 311 or covered very little:
+
+- [OOP](design/OOP.md) & OO design, including 
+	- [inheritance](oop/inheritance.md)
+	- [virtual functions](oop/virtual%20functions.md)
+	- [separation of concerns](design/separation%20of%20concerns.md) and OO-style [dependency injection](dependency%20injection.md)
+- I/O
+	- [Formatted I/O](io/Formatted%20IO.md)
+	- [File I/O](io/File%20IO.md)]
 
 # Medium priority
 
